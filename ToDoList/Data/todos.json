@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Examen Proiectarea Aplicatiilor Mobile",
+        "status": "Active",
+        "description": "Prezentarea implementare proiect IOS realizat in Storyboard conform cerintei",
+        "date": "14-05-2023",
+        "time": "14:00",
+        "priority": "HIGH"
+    },
+    {
+        "title": "Examen Probabilitati si Statistica",
+        "status": "Completed",
+        "description": "TC1 + TC2 + Examen (3 probleme + 1 subiect de teorie). 40% temele + 50% examenul + 10% prezenta",
+        "date": "21-05-2023",
+        "time": "09:00",
+        "priority": "HIGH"
+    },
+    {
+        "title": "Examen PPCD",
+        "status": "Active",
+        "description": "Tema cu 5 programe de sortare folosing MPI",
+        "date": "14-05-2023",
+        "time": "09:00",
+        "priority": "MEDIUM"
+    },
+    {
+        "title": "Examen Auditul sistemelor informatice",
+        "status": "Completed",
+        "description": "Referat 1 - Legislatie; Referat 2 - Referat despre o certificare; Examen: Test grila 10 intrebari",
+        "date": "14-05-2023",
+        "time": "09:00",
+        "priority": "MEDIUM"
+    },
+    {
+        "title": "Examen MPI",
+        "status": "Completed",
+        "description": "Referat la alegere dintr-una din temele propuse; Referat tool informatic (JIRA, Confluence, Bitbuket, Git) + Prezentarea ambelor",
+        "date": "07-05-2023",
+        "time": "09:00",
+        "priority": "LOW"
+    },
+    {
+        "title": "Examen Dezvoltarea aplicatiilor WEB",
+        "status": "Completed",
+        "description": "Test grila + Proiect aplicatie WEB cu prezentare",
+        "date": "10-02-2023",
+        "time": "09:00",
+        "priority": "LOW"
+    },
+    {
+        "title": "Examen Sabloane de proiectare software",
+        "status": "Canceled",
+        "description": "Proiect JAVA care sa include 5 design patterns",
+        "date": "17-02-2023",
+        "time": "09:00",
+        "priority": "LOW"
+    },
+    {
+        "title": "Examen IOT",
+        "status": "Canceled",
+        "description": "Proiect IOT cu prezentare",
+        "date": "23-02-2023",
+        "time": "09:00",
+        "priority": "LOW"
+    },
+    {
+        "title": "Examen LICENTA",
+        "status": "Active",
+        "description": "Proiect licenta",
+        "date": "02-07-2023",
+        "time": "09:00",
+        "priority": "HIGH"
+    }
+]
