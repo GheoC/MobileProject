@@ -36,8 +36,19 @@ class LoginViewController: UIViewController {
         let todoListTableViewController = storyboard.instantiateViewController(withIdentifier: "todoListTableViewController")
         
         if (usernameTextField.text == "PAM" && passwordTextField.text == "PAM") {
+            usernameTextField.text = ""
+            passwordTextField.text = ""
             errorTextField.text = ""
-            self.present(todoListTableViewController, animated: true, completion: nil)
+            
+            // varianta 1: folosim UINavigationController care "imbraca" programmatically viewControllerul "todoListTableViewController"
+            // altfel spun folosim UINavigationController doar din viewul 2;
+            // vroiam sa separ viewul de login de gruparea de viewuri TodoListTableViewController si ToDOViewController
+            // adaptare dupa tutorialul acesta: https://youtu.be/Ime8NK5NLgc
+            let navigationController = UINavigationController(rootViewController: todoListTableViewController)
+            self.present(navigationController, animated: true, completion: nil)
+            
+            // varianta 2: varianta fara UINavigationController; imi place mai mult cum arata
+            //self.present(todoListTableViewController, animated: true, completion: nil)
         } else
         {
             errorTextField.text = "Invalid credentials!"

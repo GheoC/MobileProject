@@ -61,6 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="EkA-7S-M0j"/>
                     <connections>
                         <outlet property="ErrorTextField" destination="ATY-qB-g11" id="vYo-Zu-Mqp"/>
                         <outlet property="passwordTextField" destination="EdY-tH-liY" id="V8q-d9-8zw"/>
@@ -70,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-843" y="-141"/>
+            <point key="canvasLocation" x="1345.7943925233644" y="-141.2526997840173"/>
         </scene>
         <!--ToDo's-->
         <scene sceneID="ACQ-aO-QZ7">
@@ -126,9 +127,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEw-iw-Fdz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="-141"/>
+            <point key="canvasLocation" x="2081.7757009345792" y="-141.2526997840173"/>
         </scene>
-        <!--To Do View Controller-->
+        <!--ToDo Event-->
         <scene sceneID="2lk-i2-2hb">
             <objects>
                 <viewController id="nfv-hB-O2F" customClass="ToDoViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
@@ -137,21 +138,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUN-mV-hlC">
-                                <rect key="frame" x="20" y="64" width="388" height="45"/>
+                                <rect key="frame" x="20" y="130" width="388" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWD-F1-ZJ9">
-                                <rect key="frame" x="50" y="135" width="133" height="45"/>
+                                <rect key="frame" x="50" y="201" width="133" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Description" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="RGU-Lu-uTE">
-                                <rect key="frame" x="50" y="278" width="325" height="230"/>
+                                <rect key="frame" x="50" y="344" width="325" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.75469280520000004" green="0.94524539910000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -159,21 +160,21 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLU-ML-Yaq">
-                                <rect key="frame" x="50" y="198" width="133" height="43"/>
+                                <rect key="frame" x="50" y="264" width="133" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uy-XM-b9g">
-                                <rect key="frame" x="221" y="198" width="154" height="43"/>
+                                <rect key="frame" x="221" y="264" width="154" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Priority" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG5-Ph-fy2">
-                                <rect key="frame" x="221" y="135" width="154" height="45"/>
+                                <rect key="frame" x="221" y="201" width="154" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -183,7 +184,7 @@
                         <viewLayoutGuide key="safeArea" id="BMD-lE-4SM"/>
                         <color key="backgroundColor" red="0.75469280517133064" green="0.94524539907130112" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4C8-qa-Jdi"/>
+                    <navigationItem key="navigationItem" title="ToDo Event" id="4C8-qa-Jdi"/>
                     <connections>
                         <outlet property="dateLabel" destination="wLU-ML-Yaq" id="d27-Do-PeP"/>
                         <outlet property="descriptionLabel" destination="RGU-Lu-uTE" id="UtP-Hk-42D"/>
@@ -195,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRX-Re-iVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="518.69158878504675" y="-141.2526997840173"/>
+            <point key="canvasLocation" x="2800.934579439252" y="-141.2526997840173"/>
         </scene>
     </scenes>
     <color key="tintColor" systemColor="systemTealColor"/>
